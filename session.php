@@ -26,7 +26,9 @@
  *   http.  
  **/
 
-session_set_cookie_params(0,'/','localhost', false, true);
+//ini_set('session.save_handler','sqlite');
+//ini_set('session.save_path',__DIR__.'/sessions.db');
+session_set_cookie_params(0,'/','localhost', false, false);
 
 
 session_start();
