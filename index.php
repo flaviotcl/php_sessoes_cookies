@@ -32,5 +32,5 @@
         'nome' => 'Flavio',
         'idade' => 33,
         'ativo' => true,
-        'rate' => 4.6
+        'rate' => 3.3
     ];
